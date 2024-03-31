@@ -1,0 +1,161 @@
+<html>
+<head>
+    <title>FitMe | E commerce Website </title>
+    <link rel="stylesheet" href="same.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+   <div class="navbar">
+      <div class="logo">
+         <img src ="img/logo1.png" width="165" height="90">
+      </div>
+      <nav>
+        <ul  id ="MenuIteams">
+            <li><a href="#home">Home </a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#fitness_articles ">Fitness Articles </a></li>
+            <li><a href="#conatct_us ">Contact Us </a></li>
+            
+          
+          
+          
+        </ul>
+      </nav>
+     <!-------- <button><a href ="#LogIn">Log In </a></button>
+      <button><a href ="#SignUp">Sign Up </a> </button>------------->
+
+      <img src ="img/cart4.png" width ="35px" height="30px" >
+      <img src ="img/menu.png" class="menu-icon" onclick="menutoggle()">
+    
+   </div>
+
+
+
+   <!-------Cart------->
+       <h2>Cart</h2>
+   <div class="small_container cart-page">
+   
+        
+       <table class="Shop_table">
+       
+            <tr>
+             
+                <th class="Product_name">PRODUCT</th>
+               
+                <th class="Product_quatity">QUANITY</th>
+                <th class="Product_subtotal">SUBTOTAL</th>
+                
+
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="img/Products/p1r.png"width="120" height="110">
+                        <div>
+                            <p>Nitrotech 4lbs</p>
+                            <small>Price: Rs 24,500.00</small><br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>Rs 24,500.00</td>
+            </tr>
+        </thread>
+       </table>
+       <div class="total-price">
+        <table>
+            <tr>
+                <td>
+                    SUBTOTAL
+                </td>
+                <td>Rs 24,500.00</td>
+            </tr>
+            <tr>
+                <td>
+                    TAX
+                </td>
+                <td>Rs 3,000</td>
+            </tr>
+            <tr>
+                <td>
+                    TOTAL
+                </td>
+                <td>Rs 27,500.00</td>
+            </tr>
+        </table>
+       </div>
+ 
+
+
+    </div>
+    </div>
+
+
+
+<!-------Footer -------->
+<div class ="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Contact Us</h3>
+                <p> Via Mobile : +94 076 0547176 <br>
+                    Via Email : fitme@outlook.com <br>
+                    Address : 573 , Jayanthi Mawatha ,Col 3 <br></p>
+            </div>
+            <div class="footer-col-2">
+                <img src="img/logo1.png"  width="165" height="90">
+                <p>FitMe is Sri Lanka’s premium fitness platform, and specialize in delivering fitness content on a variety of topics which engages a broad audience who are predominantly into fitness and physical well-being.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Information</h3>
+                <ul>
+                    <li>About Us </li>
+                    <li>Blog  </li>
+                    <li>Conatct Us  </li>
+                    <li>FAQ </li>
+                </ul>
+            </div>
+            <div class="footer-col-3">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook </li>
+                    <li>Instagram </li>
+                    <li>Twitter  </li>
+                    <li>YouTube </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2024 - FitMe</p>
+    </div>
+</div>
+  <!-------------Js for toggle menu------>
+  <script>
+    var menuIteams = document.getElementById("MenuIteams");
+
+    menuIteams.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if (menuIteams.style.maxHeight  == "0px")
+         {
+            menuIteams.style.maxHeight = "200px"
+         }
+         else 
+         {
+            menuIteams.style.maxHeight = "0px"
+         }
+    }
+  </script>
+
+
+
+
+
+
+
+
+
+</body>
